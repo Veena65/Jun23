@@ -5,3 +5,6 @@ Then check git status that identifies new files(untracked files) that need to be
 To add those files type git add . to add all files or git add filename to add a particular file
 Save it using commit command and commit message using git commit -m "Committed message"
 Now push it to git repository using git push origin main command
+In case of error occurance type git pull
+Then retry push command
+
