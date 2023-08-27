@@ -1,0 +1,7 @@
+This file is created in local repository
+On saving it has U symbol (Untracked file)
+Now change directory to Jun23 using cd Jun23
+Then check git status that identifies new files(untracked files) that need to be added to git repository
+To add those files type git add . to add all files or git add filename to add a particular file
+Save it using commit command and commit message using git commit -m "Committed message"
+Now push it to git repository using git push origin main command
