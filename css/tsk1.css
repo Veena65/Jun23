@@ -1,0 +1,132 @@
+body
+{
+	background-image: url("E:/html files/Picture/background/b6.jpg");
+	width: 100%;
+	height: 100%;
+}
+.content
+{
+	display: grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows:auto auto ;
+		grid-template-areas:
+		"h h h f"
+		"p p p f"
+		"c c c f";
+		padding:20px;
+}
+.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+}
+.main a
+{
+	text-decoration: none;
+	color: white	
+}
+.menu li
+{
+	float: right;
+	padding: 15px;
+	display: block;
+
+
+	border-left:1px solid red;
+}
+.logo
+{
+	font-family: serif;
+	font-size: 2em;
+	color: maroon;
+	text-align: center;
+}
+h1
+{
+	grid-area:h;
+	justify-content: center;
+	align-items: center;
+}
+.form
+{
+	border:1px solid green;
+	border-radius: 20px;
+	background-color: rgba(126,46,98,0.5);
+	grid-area:f;
+	align-items: center;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	text-align: center;
+}
+.par{
+	grid-area:p;
+	text-indent: 20px;
+}
+.cn
+{
+	grid-area:c;
+	width: 100px;
+}
+.search
+{
+	position: absolute;
+	top: 5px;
+	right:20px;
+}
+.srch
+{
+	font-size: 20px;
+	background-color: rgba(0,76,137,0.4);
+	color: white;
+}
+.btn
+{
+	background-color: white;
+	font-size: 20px;
+	border-radius: 10%;
+}
+.btnn,.cn
+{
+	background-color: green;
+	display: block;
+	text-align: center;
+
+}
+
+.form h2
+{
+	background-color: yellow;
+	color: purple;
+	display: block;
+	padding: 5px;
+}
+.form input
+{
+	font-size: 15px;
+	margin: 5px;
+}
+.link a:hover
+{
+	font-size: 25px;
+}
+.icons a
+{
+	color:blue;
+	margin: 5px;
+}
+.icons a:hover
+{
+	color: cyan;
+	margin: 5px;
+}
+.icons ion-icon
+{
+	width: 30px;
+	height: 30px;
+}

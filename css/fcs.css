@@ -1,0 +1,116 @@
+.container
+{
+	display: flex;
+	flex-direction: column;
+	gap:15px;
+	text-align: center;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.head ul
+{
+	background-color: pink;
+	overflow: hidden;
+}
+h1
+{
+	font-variant: small-caps;
+	font-family: serif;
+	color: maroon;
+	font-size: 2.5em;
+}
+.head li
+{
+	border-left:1px solid red;
+	text-decoration: none;
+	float:right;
+}
+.top a,.list a
+{
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	color: black;
+}
+.top a:hover
+{
+	background-color: green;
+	color: white;
+}
+#image
+{
+	background-image: url("D:/Desktop files/Picture/background/c8.jpg");
+	height: 200px;
+	font-size: 50px;
+	padding: 10px 0px;
+	color: white;
+	display: grid;
+	/*align-content: center;
+	justify-content: center;*/
+	align-items: center;
+}
+.list
+{
+	margin : 0px 40px;
+	border:1px solid rgba(225,0,0,0.5);
+}
+.list li
+{
+	display: block;
+	background-color: hsla(100,50%,70%,0.2);
+	border:1px dashed rgba(130,112,20,0.3);
+	padding: 10px;
+	font-size: 20px;
+	color: purple;
+}
+.bt
+{
+	padding: 10px;
+}
+.nam
+{
+	font-family: serif;
+	font-size: 3em;
+	color: maroon;
+	padding: 10px;
+	background-color: aqua;
+}
+.title{
+	font-family: sans-serif;
+	text-align: left;
+	font-variant: small-caps;
+	font-size: 23px;
+	letter-spacing: 2px;
+	text-decoration: underline;
+}
+p
+{
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: serif;
+	text-align: justify;
+ 	text-indent: 80px;
+}
+#para li
+{
+	text-align:left;
+	font-size: 18px;
+	padding: 1px 5px;
+}
+#para
+{
+	padding: 20px;
+	margin: 0px 70px;
+	border:1px solid rgba(200,0,0,0.3);
+}
+#footer
+{
+	background-color: black;
+	letter-spacing: 2px;
+	font-variant: small-caps;
+	color: white;
+}

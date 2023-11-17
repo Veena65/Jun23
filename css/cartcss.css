@@ -1,0 +1,120 @@
+*
+{
+    font-family: sans-serif;
+    /* background-color: magenta; */
+    
+}
+#navbar
+{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    background-image:linear-gradient(bisque,yellow,wheat)
+}
+#logo img
+{
+    width: 100px;
+    height: 100px;
+    padding: 0px 10px;
+}
+#logo h1
+{
+    float: right;
+    color: rgb(9, 153, 105);
+}
+#list li
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    display: inline;
+}
+#list li a
+{
+    text-decoration: none;
+    color: rgb(155, 45, 12);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+#list li a:hover
+{
+    text-transform: uppercase;
+    color: blue;
+}
+#cartbtn button
+{
+    margin: 0px 40px 0px 0px;
+    width: 150px;
+    height: 60px;
+    color:blue;
+    background-color:transparent;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#cont
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border: 1px solid red;
+    background-color:darkkhaki
+}
+#imgs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.image
+{
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family:sans-serif;
+    font-weight: bold;
+    width: 250px;
+    height: auto;
+    /* overflow:auto; */
+    
+} 
+.image img
+{
+    width: 200px;
+    height:200px;
+}
+.image input
+{
+    width: 70px;
+    height: 30px;
+    font-size: large;
+}
+.image .btn
+{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: chocolate;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.image .hsbtn
+{
+    background: transparent;
+    border: none;
+}
+.describe
+{
+    display: none;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    padding: 15px;
+    font-size: 20px;
+}

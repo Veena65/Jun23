@@ -1,0 +1,19 @@
+table
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: green;
+	border-collapse: collapse;
+	text-align: center;
+	width: 300px;
+	margin: 10px auto;
+	font-size: 25px;
+	color: red;
+	width: 10%;
+
+}
+tr:nth-child(even)/*can be even/odd-horizontal zebra strips*/
+{
+	background-color:rgba(60,164,85,0.2);
+	padding: 5px;
+}

@@ -1,0 +1,150 @@
+*/*universal selector*/
+{
+	margin-left: 10px;
+	padding-top: 5px;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	text-decoration: none;
+	background-color: rgba(255,255,128,0.2);
+
+
+}
+#a1/*id selector*/
+{
+	padding-left: 20px;
+	color: rgb(200,14,17);
+	font-size: 20px;
+	width: 90%;
+	text-align: justify;
+	border-style: ridge;
+	border-color: yellow;
+
+}
+p cite /*decendent selector targets all <cite> within <p>*/
+{
+	color: green;
+	font-size: 20px;
+	font-style: italic;
+	font-family: sans-serif;
+	font-stretch: expanded;
+	text-shadow: 0.8px 0.8px #520805;
+}
+
+
+h1/*individual tag selector*/
+{
+	font-family: serif;
+	font-style: italic;
+	color: red;
+	font-weight:bolder;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	border: 1px;
+	border-radius: 10px;
+	border-width: 3px;
+	border-color: purple;
+	border-style: dashed;
+
+}
+p+h2/*Adjacent sibling selector-targets first <h2>that are immediatelly follows <p>*/
+{
+	padding-right: 10px;
+	font-size: 20px;
+	color: rgb(200,30,180);
+	text-transform: capitalize;
+	font-family: monospace;
+	font-style: bold;
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(200,20,30,0.8);
+	background-color: hsla(50,100%,50%,0.2);
+	padding: 10px;
+	width:200px;
+}
+body>h3/*child selector*/
+{
+	color: rgb(175,25,75);
+	font-family: cursive;
+	font-style: lighter;
+	font-size: 20px;
+	width: 250px;
+	border-width: 2px;
+	border-color: rgba(200,20,30,0.8);
+	border-style: dotted;
+	padding: 10px;
+	background-color: hsla(50,100%,50%,0.2);
+}
+li q/*descendent selector*/
+{
+	color: red;
+	font-size: 1.15em;
+}
+p~ul/*general siblings selector*/
+{
+	font-family: Georgia,serif;
+	color: hsl(280,50%,20%);
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 100px;
+
+}
+p~ol/*general siblings selector*/
+{
+	color: purple;
+	margin-left: 100px;
+	font-family: "Times New Roman",serif;
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 18px;
+}
+.par/*class selector*/
+{
+	text-decoration: none;
+	text-align: justify;
+	text-indent: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	color: hsl(25,90%,40%);
+}
+li a:link /*descendent selector*/
+{
+	text-decoration: none;
+	color: gray;
+	
+}
+li a:visited /*descendent selector*/
+{
+	text-decoration: none;
+	color: rgb(5,180,20);
+	border-width: 1px;
+	border-style: dotted;
+	border-color: red;
+
+}	
+
+li a:hover /*descendent selector*/
+{
+	color: green;
+	font-size: 20px;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: red;
+	background-color: hsla(50,100%,50%,0.2);
+
+}
+li a:active /*descendent selector*/
+{
+	color: red;
+	font-size: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;
+	background-color: hsla(50,100%,50%,0.5);
+}
+a:link
+{
+	color: yellow;
+}

@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#calc
+{
+    display: flex;
+    width: 340px;
+    height: auto;
+    gap: 10px;
+    border: 1px solid black;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    margin: 10vh auto;
+    background-color:aquamarine;
+}
+button
+{
+    width: 70px;
+    height: 35px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: teal;
+    border: none;
+    background-color:cornsilk;
+}
+button:hover
+{
+    background-color: yellow;
+}
+input[type=text]
+{
+    width: 300px;
+    height: 35px;
+    font-size: 1.2em;
+    padding: 5px;
+    text-align: end;
+}

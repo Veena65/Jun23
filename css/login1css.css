@@ -1,0 +1,119 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../image/background/c3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.formbox
+{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    /* relative to main class */
+    margin: 5% auto;
+    background: wheat;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.title
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    /* relative to its parent formbox class */
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.togbtn
+{
+    padding: 10px 30px;
+    position: relative;
+    /* relative to its parent title class */
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,rgb(255, 0, 64),yellow);
+    border-radius: 30px;
+    transition: .5s;
+    /* must be given absolute position sothat it can occupy already existing position ie, adds to already existing data */
+}
+
+.formitems
+{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.inputdata
+{
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid blue;
+    padding: 10px 5px ;
+    margin: 5px 0;
+    background: transparent;
+    outline: none;
+}
+
+.subbtn
+{
+    width: 85%;
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right,rgb(255, 0, 64),yellow);
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.chkbox
+{
+    margin: 30px 10px 30px 0;
+}
+
+span
+{
+    color: maroon;
+    font-size: 0.8em;
+    /* bottom: 268px;
+    position: absolute; */
+}
+
+#login
+{
+    left: 50px;
+}
+
+#register
+{
+    left: 450px;
+}

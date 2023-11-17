@@ -1,0 +1,168 @@
+:root
+{
+    --blue:#15133C;
+    --yellow:#F7FD04;
+    --white:#F1EEE9;
+    --brown:#42032C;
+    --red:#F90716;
+}
+
+*
+{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.landing
+{
+    background-image: url("/image/Pixele/spicy.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header
+{
+    height: 10vh;
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+#logo
+{
+    color: var(--blue);
+    font-size: 2em;
+    font-weight: bolder;
+    flex: 3;
+    min-width: 350px;
+    
+}
+nav
+{
+    flex:2;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav a
+{
+    text-decoration: none;
+    color: var(--yellow);
+    flex: 1;
+    font-size: 20px;
+    min-width: 100px;
+}
+nav a:hover
+{
+    color: var(--white);
+}
+article
+{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    padding: 12%;
+    color: var(--blue);
+}
+.fline
+{
+    color: var(--brown);
+    font-size: 3em;
+}
+.sline
+{
+    font-size: 2em;
+}
+.tline
+{
+    font-size: 1.5em;
+}
+button
+{
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+article p
+{
+    margin: 3px;
+}
+#menu,#location
+{
+    background-image:linear-gradient(to right,orange,var(--yellow),orange);
+    color: var(--blue);
+}
+
+h2
+{
+    font-size: 3em;
+    color: var(--red);
+    text-align: center;
+}
+#menucont
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    column-gap: 20px;
+}
+table
+{
+    width: 100%;
+    padding: 1em;
+}
+#menucont tr
+{
+    display: flex;
+    margin: .6em;
+    justify-content: center;
+}
+#menucont td:nth-child(1)
+{
+    justify-self: left;
+    flex: 1;
+}
+.mdata td:nth-child(2)
+{
+    justify-self: right;
+    
+}
+#mdata2
+{
+    grid-row: span 2;
+}
+.mt h3
+{
+    color: var(--blue);
+}
+#menucont td
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--brown);
+}
+#locate
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.loc
+{
+    color: var(--blue);
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    min-width: 140px;
+}
+h3
+{
+    font-size: 2em;
+    text-align: center;
+}

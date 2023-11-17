@@ -1,0 +1,51 @@
+
+*/*universal selector*/
+{
+	font-family: Georgia;
+}
+h1/*external individual css*/
+{
+	color: rgba(0,255,0,1.0);
+}
+/*for multiple h2 it selects the last on specified*/
+h6,h2/*multiple selector,grouping selector*/
+{
+	font-size: 30px;
+	color: hsl(240,100%,50%);
+}
+h2
+{
+	font-size: 20px;
+	color: red;
+}
+p~big/*The general sibling selector selects all elements that are next siblings of a specified element*/
+{
+	color: rgb(255,56,200);
+}
+sup+sub/*The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".Selects the 1st subelement followedbysup tag*/
+{
+	color: orange;
+}
+b sub/*descendent selector*/
+{
+	color: red;
+}
+#hi/*id selector*/
+{
+	font-size: 15px;
+	color: #f32341;
+}
+.helo/*class selector*/
+{
+	color: aqua;
+}
+.main{/*class selector*/
+	font-size: 20px;
+}
+kbd>var/*Child selector*/
+{
+	color: hsl(320,80%,70%);
+	font-size: 15px;
+}

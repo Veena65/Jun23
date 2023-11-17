@@ -1,0 +1,70 @@
+h1
+{
+	text-align: center;
+	color: maroon;
+}
+/*Vertical tab*/
+#tp a
+{
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	color: black;
+}
+
+#tp a:hover
+{
+	background-color: black;
+	color: white;
+}
+#tp ul 
+{
+	list-style-type: none;
+	background-color: lightgray;
+	color: white;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/*position: fixed;
+	top: 0;
+	width: 100%;*/
+}
+#tp li
+{
+	/*display: inline;*/
+	float: right;
+	border-left:1px solid red;
+	text-decoration: none;
+}
+/*horizontal tab*/
+#lt ul
+{
+	background-color: rgba(12,200,107,0.2);
+	width: 15%;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	display: block;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+}
+#lt li
+{
+	list-style-type: none;
+	border-bottom: 1px solid green;
+	text-align: center;
+}
+#lt a
+{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	height: 26px;
+}
+#lt a:hover
+{
+	background-color: rgba(12,200,107,0.6);
+	color: maroon;
+}

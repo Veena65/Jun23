@@ -1,0 +1,141 @@
+body
+{
+	/* background-image: linear-gradient(transparent,lightgray),url("E:/html files/Picture/background/b6.jpg"); */
+	background-image: url("../image/background/b6.jpg");
+}
+.navbar
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	float:left;
+}
+h1 
+{
+	word-spacing: 2px;
+}
+.main a,.link a
+{
+	text-decoration: none;
+}
+.icon
+{
+	float: left;
+}
+.logo
+{
+	color: purple;
+	font-size: 3em;
+
+}
+.menu li
+{
+	display: inline;
+	padding: 20px;
+	font-size: 20px;
+}
+.srch
+{
+	background:transparent;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	border-right: 1px solid black;
+	border-radius: 5px 0px 0px 5px;
+}
+.btn
+{
+	width: 100px;
+	height: 40px;
+	padding: 10px;
+	float: right;
+	border-left: none;
+	border-radius: 0px 5px 5px 0px;
+}
+
+
+.form
+{
+	position: absolute;
+	top: 150px;
+	right:50px;
+	border:1px solid red;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin: 20px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,146,15,0.2);
+}
+.form input
+{
+	width: 200px;
+	margin:10px; 
+	border:none;
+	border-bottom: 2px solid blue;
+	background:none;
+}
+
+span,.icon h2
+{
+	color: maroon;
+}
+.content p
+{
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	text-indent: 20px;
+}
+.content
+{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	flex-wrap: wrap;
+}
+.form h2
+{
+	background-color: yellow;
+	padding: 10px;
+}
+.cn,.btnn
+{
+	width: 100px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: green;
+}
+.link a
+{
+	color: maroon;
+	font-size: 20px;
+}
+.cn a,.btnn a
+{
+	color: white;
+}
+.icons a
+{
+	color:blue;
+	margin: 5px;
+}
+.icons a:hover
+{
+	color: cyan;
+	margin: 5px;
+}
+.icons ion-icon
+{
+	width: 30px;
+	height: 30px;
+}

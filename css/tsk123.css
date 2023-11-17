@@ -1,0 +1,28 @@
+.icon,.search,.menu
+{
+	float:left;
+}
+.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li
+{
+	display: inline;
+	padding: 10px;
+	margin: 20px;
+}
+a
+{
+	text-decoration: none;
+}
+.content
+{
+	float: left;
+}
+.form
+{
+	float: right;
+}
