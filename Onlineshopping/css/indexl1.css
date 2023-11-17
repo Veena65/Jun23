@@ -1,0 +1,91 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.doc
+{
+    display: flex;
+    flex-direction: column;
+    background-color:aliceblue;
+    gap: 10px;
+}
+.part
+{
+    background-color: white;
+    color: black;
+}
+header
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;   
+}
+header .logo
+{
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.logo #l1
+{
+    font-size: 1.2em;
+    color: blue;
+
+}
+.logo #l2
+{
+    color: gray;
+    font-size: 0.8em;
+    margin-top: 5px;
+    
+}
+#l2 span
+{
+    color: orange;
+}
+header .srch
+{
+    flex: 3;
+    
+
+}
+.srch input
+{
+    width: 400px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 3px;
+    border: none;
+    background-color: aliceblue;
+}
+.srch i
+{
+    background-color: aliceblue;
+    height: 35px;
+    width: 20px;
+    float: left;
+    padding: 10px 2px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+header .hbtn
+{
+    flex:3;
+    min-width: 330px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hbtn a, .ddown a
+{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}

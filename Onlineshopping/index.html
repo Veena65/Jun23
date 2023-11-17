@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/indexl1.css">
+    <link rel="stylesheet" href="./css/indexl2.css">
+    <link rel="stylesheet" href="./css/indexl3.css">
+    
+    <title>Online Shopping Store</title>
+</head>
+<body>
+    <div class="doc">
+        <div class="part">
+            <header>
+                <div class="logo">
+                    <p id="l1">Flipkart</p>
+                    <p id="l2">Explore <span>Plus<i class="fa-regular fa-star"></i></span></p>
+                </div>
+                <div class="srch">
+                    <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Search...">
+                </div>
+                <div class="hbtn">
+                    <a href="#"><i class="fa-solid fa-store"></i>Become a Seller</a>
+                    <a href="#"><i class="fa-solid fa-user"></i>Sign In</a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+            </header>
+        </div>
+        <div class="part">
+            <div class="objlist">
+            <div class="obj">
+                <img src="./image/food.jpg" alt="soap">
+                <h3>Groceries</h3>
+            </div>
+            <div class="obj">
+                <img src="./image/mobile.jpg" alt="phone">
+                <h3>Mobiles</h3>
+            </div>
+            <div class="obj">
+                <a href="#" class="ddbtn"><img src="./image/dress.jpg" alt="">
+                <h3>Fashion <i class="fa-solid fa-caret-down"></i></h3></a>
+                <div class="ddown">
+                    <a href="#">Mens Wear</a>
+                    <a href="#">Womens Wear</a>
+                    <a href="#">Kids Wear</a>
+                    <a href="#">Combo Collection</a>
+                </div>
+            </div>
+            <div class="obj">
+                <img src="./image/ht.jpg" alt="ht">
+                <h3>Electronics</h3>
+            </div>
+            <div class="obj">
+                <img src="./image/furniture.jpg" alt="furn">
+                <h3>Furnitures</h3>
+            </div>
+            <div class="obj">
+                <img src="./image/fridge.jpg" alt="">
+                <h3>Appliances</h3>
+            </div>
+            <div class="obj">
+                <img src="./image/travel.jpg" alt="">
+                <h3>Travel</h3>
+            </div>
+            <div class="obj">
+                <a href="#" class="ddbtn"></a><img src="./image/teddy.jpeg" alt="">
+                <h3>Kids Care <i class="fa-solid fa-caret-down"></i></h3></a>
+                <div class="ddown">
+                    <a href="#">Stationary</a>
+                    <a href="#">Sports</a>
+                    <a href="#">Tool kits</a>
+                    <a href="#">Toys</a>
+                </div>
+            </div>
+            <div class="obj">
+                <img src="./image/bike.jpg" alt="">
+                <h3>Vehicles</h3>
+            </div>
+        </div>
+        </div>
+        <div class="part">
+            <div id="imgscroll">
+                <img src="./image/a4.jpg" alt="img1" class="slides">
+                <img src="./image/a5.jpg" alt="img2" class="slides">
+                <img src="./image/b3.jpg" alt="img3" class="slides">
+                <img src="./image/b4.jpg" alt="img4"class="slides">
+                <button onclick="showSlide(-1)" id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button onclick="showSlide(1)" id="next"><i class="fa-solid fa-chevron-left fa-rotate-180"></i></button>
+            </div>
+           
+        </div>
+        <div class="part">
+
+        </div>
+    </div>
+    <script src="./js/imgscroll.js"></script>
+
+</body>
+</html>

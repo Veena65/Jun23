@@ -1,0 +1,17 @@
+
+#imgscroll img
+{
+    display: none;
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+   
+}
+#prev,#next
+{
+    width: 30px;
+    height:30px;
+    padding: 5px;
+    background-color: aliceblue;
+    border: none;
+}

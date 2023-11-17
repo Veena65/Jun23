@@ -1,0 +1,29 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: serif;
+    text-align: center;
+    margin: 20px auto;
+    width: 500px;
+}
+h2
+{
+    font-size: 2em;
+    color: darkmagenta;
+    margin: 5px;
+}
+#gameboard
+{
+    border: 5px ridge blue;
+    margin: 20px auto;
+}
+#score
+{
+    font-size: 1.5em;
+    color: darkred;
+}
