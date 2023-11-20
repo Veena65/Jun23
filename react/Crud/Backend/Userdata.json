@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "username": "Creator",
+      "company": "",
+      "salary": "1000",
+      "id": 1
+    },
+    {
+      "username": "Navya",
+      "company": "YYY",
+      "salary": "20000",
+      "id": 4
+    },
+    {
+      "username": "Priya",
+      "company": "Hellooo",
+      "salary": "5000",
+      "id": 5
+    },
+    {
+      "username": "riya",
+      "company": "Goolle",
+      "salary": "999",
+      "id": 6
+    },
+    {
+      "username": "yyyy",
+      "company": "jjj",
+      "salary": "766",
+      "id": 7
+    },
+    {
+      "username": "Ravi",
+      "company": "Target",
+      "salary": "666",
+      "id": 9
+    }
+  ]
+}
